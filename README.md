@@ -1,5 +1,9 @@
 # ASCII_bling
 
+Show ASCII art every time you open a new terminal!
+
+![alt text](https://github.com//DanielEnricoBotta94/ASCII_bling/edit/main/example.jpg?raw=true)
+
 # How to install
 
 ## Debian ( Ubuntu )
