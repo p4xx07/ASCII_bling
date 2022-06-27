@@ -11,7 +11,7 @@ Show ASCII art every time you open a new terminal!
 
 For coloring text in the console
 
-`sudo apt install locat`
+`sudo apt install lolcat`
 
 
 For shuffling output from the terminal
@@ -31,7 +31,7 @@ Add to .bashrc this line
 
 For coloring text in the console
 
-`brew install locat`
+`brew install lolcat`
 
 
 For shuffling output from the terminal
