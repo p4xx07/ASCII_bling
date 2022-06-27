@@ -2,7 +2,7 @@
 
 Show ASCII art every time you open a new terminal!
 
-![alt text](https://github.com//DanielEnricoBotta94/ASCII_bling/edit/main/example.jpg?raw=true)
+<img src="https://raw.githubusercontent.com/DanielEnricoBotta94/ASCII_bling/main/example.jpg" data-canonical-src="https://raw.githubusercontent.com/DanielEnricoBotta94/ASCII_bling/main/example.jpg" width="800" height="650" />
 
 # How to install
 
