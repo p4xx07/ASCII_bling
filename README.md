@@ -36,7 +36,7 @@ For coloring text in the console
 
 For shuffling output from the terminal
 
-`brew install gshuf`
+`brew install coreutils`
 
 
 Add to .zsh this line
