@@ -14,11 +14,6 @@ For coloring text in the console
 `sudo apt install lolcat`
 
 
-For shuffling output from the terminal
-
-`sudo apt install shuf`
-
-
 Add to .bashrc this line
 
 
