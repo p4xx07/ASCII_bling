@@ -70,7 +70,7 @@ function blob(text) {
 }
 
 function download(url) {
-    const a = document.createElement(‘a’);
+    const a = document.createElement("a");
     a.href = url;
     a.download = url.split("/").pop();
     document.body.appendChild(a);
