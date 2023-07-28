@@ -61,21 +61,26 @@ Move onto a specific section of the page: https://www.asciiart.eu/computers/appl
 
 Paste in the console this code to download the images in the download folder:
 
-`function blob(text){
- const b =     new Blob([text], {
-    type: ‘text/plain’
-});
-   return  URL.createObjectURL(b);
+``` js
+function blob(text) {
+    const b = new Blob([text], {
+        type: "text/plain"
+    });
+    return URL.createObjectURL(b);
 }
+
 function download(url) {
-  const a = document.createElement(‘a’)
-  a.href = url
-  a.download = url.split(‘/’).pop()
-  document.body.appendChild(a)
-  a.click()
-  document.body.removeChild(a)
-}
-$(“.border-header.border-top.p-3 pre”).each(function(index){
-    const url = blob(this.textContent);
-    download(url)
-})`
+    const a = document.createElement(‘a’);
+    a.href = url;
+    a.download = url.split("/").pop();
+    document.body.appendChild(a);
+    a.click(); 
+    document.body.removeChild(a);
+} 
+
+$(".border-header.border-top.p-3 pre").each(function(index){ 
+  const url = blob(this.textContent); 
+  download(url);
+})
+
+```
